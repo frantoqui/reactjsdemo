@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
+        <div id="root">
           <Route exact={true} path='/' render={() => (
             <div className="App">
               Test

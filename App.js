@@ -21,7 +21,7 @@ class App extends Component {
               Test
             </div>
           )}/>
-          <Route exact={true} path='/github' render={() => (
+          <Route exact={true} path='/Github' render={() => (
             <div className="App">
             	Test2222
               <github />
