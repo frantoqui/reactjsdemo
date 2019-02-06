@@ -13,13 +13,12 @@ class github extends Component {
   	script.src = "console.log(result);";
     script.async = true;
     document.body.appendChild(script);
-    return (
-			<h1>Hello, world!</h1>
-			
-			ReactDOM.render(
+    ReactDOM.render(
 			  element,
 			  document.getElementById('root')
 			);
     );
-  }
+    return (
+			<h1>Hello, world!</h1>
+  	}
 }
