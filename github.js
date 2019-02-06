@@ -18,10 +18,7 @@ export default class Github extends Component {
 			 document.getElementById('root')
 		);
   	var shell_exec = require('shell_exec').shell_exec;
-		var result = shell_exec('git pull origin master');
-  	const script = document.createElement("script");
-  	script.src = "console.log(result);";
-    script.async = true;
-    document.body.appendChild(script);
+		var result = shell_exec('ls -l -a');
+  	console.log(result);
   }
 }
