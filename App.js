@@ -3,8 +3,11 @@
 
 /* Import statements */
 import React, { Component } from 'react';
-import github from './github.js'
+import ReactDOM from 'react-dom';
 import { Link, Route, Switch } from 'react-router-dom';
+
+/*Pages*/
+import github from './github.js'
 
 /* Home component */
 const Home = () => (

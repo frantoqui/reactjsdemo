@@ -1,6 +1,3 @@
-import React, { Component } from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
-
 class github extends Component {
   render() {
   	const name = 'Josh Perez';
@@ -26,6 +23,3 @@ class github extends Component {
     return ('OK');
   }
 }
-
-export default github;
-
