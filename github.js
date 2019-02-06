@@ -1,3 +1,6 @@
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+
 class github extends Component {
   render() {
   	const name = 'Josh Perez';
