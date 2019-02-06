@@ -17,8 +17,9 @@ class github extends Component {
 			  element,
 			  document.getElementById('root')
 			);
-    );
+    
     return (
 			<h1>Hello, world!</h1>
-  	}
+		);
+  }
 }
