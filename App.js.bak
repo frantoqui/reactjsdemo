@@ -23,7 +23,7 @@ class App extends Component {
           )}/>
           <Route exact={true} path='/github' render={() => (
             <div className="App">
-            	Test2
+            	Test2222
               <github />
             </div>
           )}/>
