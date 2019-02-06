@@ -13,9 +13,9 @@ class github extends Component {
     return (
     	
 			<h1>Hello, world!</h1>
-			<script>
-				console.log(result);
-			</script>
+			
+			console.log(result);
+			
 
 			ReactDOM.render(
 			  element,
