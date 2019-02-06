@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Route exact={true} path='/' render={() => (
+          <Route exact={true} path='/github' render={() => (
             <div className="App">
               <github />
             </div>
