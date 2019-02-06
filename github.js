@@ -11,13 +11,13 @@ class github extends Component {
 		var result = shell_exec('git pull origin master');
   	
     return (
+    	const script = document.createElement("script");
     	script.src = "console.log(result);";
       script.async = true;
       document.body.appendChild(script);
       
 			<h1>Hello, world!</h1>
-			const script = document.createElement("script");
-
+			
 			ReactDOM.render(
 			  element,
 			  document.getElementById('root')
