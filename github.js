@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-class Github extends Component {
-  render() {
+export default class Github extends Component {
+  state = { 
   
+  }
+  render() {
   	const name = 'Josh Perez';
 		const element = <h1>Hello, {name}</h1>;
 		
