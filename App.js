@@ -3,6 +3,7 @@
 
 /* Import statements */
 import React, { Component } from 'react';
+import github from './github.js'
 import { Link, Route, Switch } from 'react-router-dom';
 
 /* Home component */
@@ -27,7 +28,7 @@ const Products = () => (
 )
 
 /* App component */
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <div>
