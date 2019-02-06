@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter, Route} from 'react-router-dom';
 
 /*Pages*/
-import github from './github.js'
+import github from './github'
 
 /* App component */
 class App extends Component {
