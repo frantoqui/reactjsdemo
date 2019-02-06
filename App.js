@@ -4,7 +4,8 @@
 /* Import statements */
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Link, Route, Switch } from 'react-router-dom';
+//import { Link, Route, Switch } from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 /*Pages*/
 import github from './github.js'
