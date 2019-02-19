@@ -1,0 +1,141 @@
+/*General styles*/
+
+.size_95 {
+	max-width: 95% !important;	
+}
+
+.size_5 {
+	max-width: 5% !important;	
+}
+
+.padding_side_0 {
+	padding-left: 0px !important;	
+}
+
+h2 {
+	font-size: 20px !important;	
+	font-weight: bold !important;
+	padding-bottom: 15px !important;
+	padding-top: 30px !important;
+}
+
+/*Styles for Group List*/
+
+.group_title {
+	font-size: 13px !important;	
+	font-weight: bold !important;
+}
+
+.group_subtitle {
+	font-size: 11px !important;	
+}
+
+.link-group {
+	color: #000 !important;	
+}
+
+.link-group:hover {
+	color: #fff !important;
+	background-color: #000 !important;
+}
+
+/*Styles for Tasks*/
+
+.link_groups {
+	font-size: 12px !important;
+	padding-bottom: 15px !important;
+	padding-top: 35px !important;
+	display: flex !important;
+}
+
+/*Styles for CheckBox */
+
+.cbx-task.cbx-completed.e-checkbox-wrapper .e-frame.e-check::before {
+  content: url("../images/icons/Completed.svg");
+  height: 20px;
+  width: 20px;
+	display: flex;
+	margin-top: -5px;
+	margin-left: -2px;
+}
+
+.cbx-task.cbx-completed.e-checkbox-wrapper .e-frame.e-check {
+    background-color: unset;
+    border: unset;
+    color: unset;
+}
+
+.cbx-task.cbx-completed.e-checkbox-wrapper:hover .e-frame.e-check {
+    background-color: unset;
+    border: unset;
+    color: unset;
+}
+
+.cbx-task.cbx-completed.e-checkbox-wrapper .e-checkbox:focus + .e-frame.e-check {
+    background-color: unset;
+    border: unset;
+    box-shadow: none;
+    color: unset;
+}
+
+.cbx-task.cbx-locked.e-checkbox-wrapper .e-frame.e-check::before {
+  content: url("../images/icons/Locked.svg");
+  height: 20px;
+  width: 20px;
+	display: flex;
+	margin-top: -5px;
+	margin-left: 2px;
+}
+
+.cbx-task.cbx-locked.e-checkbox-wrapper .e-frame.e-check {
+    background-color: unset;
+    border: unset;
+    color: unset;
+}
+
+.cbx-task.cbx-locked.e-checkbox-wrapper:hover .e-frame.e-check {
+    background-color: unset;
+    border: unset;
+    color: unset;
+}
+
+.cbx-task.cbx-locked.e-checkbox-wrapper .e-checkbox:focus + .e-frame.e-check {
+    background-color: unset;
+    border: unset;
+    box-shadow: none;
+    color: unset;
+}
+
+
+.cbx-task .e-frame::before {
+  content: url("../images/icons/Incomplete.svg");
+  height: 20px;
+  width: 20px;
+	display: flex;
+	margin-top: -5px;
+	margin-left: -2px;
+}
+
+.cbx-task .e-frame {
+    background-color: unset;
+    border: unset;
+    color: unset;
+}
+
+.cbx-task .e-frame:hover ..e-frame {
+    background-color: unset;
+    border: unset;
+    color: unset;
+}
+
+.cbx-task .e-frame:focus + .e-icons {
+    background-color: unset;
+    border: unset;
+    box-shadow: none;
+    color: unset;
+}
+
+.e-checkbox-wrapper.e-checkbox-disabled .e-label, 
+.e-css.e-checkbox-wrapper.e-checkbox-disabled .e-label {
+	color: #000 !important;
+}

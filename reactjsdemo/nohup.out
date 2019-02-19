@@ -1,0 +1,16 @@
+
+> reactjsdemo@0.1.0 start /home/ec2-user/reactjsdemo
+> react-scripts start "reactjsdemo"
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view reactjsdemo in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://172.31.5.55:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
